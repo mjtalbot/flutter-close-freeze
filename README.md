@@ -8,9 +8,13 @@ Run application
 
 `flutter run -d macos` 
 
-Close application from menu bar
+Close application from menu bar, the application freezes. ctrl-c in the terminal will close the application 
 
-# Reproduces on
+
+https://user-images.githubusercontent.com/1216025/211797534-23073e6f-54da-48ae-8800-1f39412a29b0.mov
+
+
+# Reproduces on (master channel)
 
 flutter --version
 Flutter 3.7.0-17.0.pre.24 • channel master • https://github.com/flutter/flutter.git
@@ -24,7 +28,7 @@ Framework • revision a02b9d2bff (2 days ago) • 2023-01-09 10:29:26 -0800
 Engine • revision 51baed6e01
 Tools • Dart 3.0.0 (build 3.0.0-97.0.dev) • DevTools 2.20.0
 
-# does not repro on
+# does not repro on (beta channel)
 
 flutter --version
 Flutter 3.7.0-1.3.pre • channel beta • https://github.com/flutter/flutter.git
